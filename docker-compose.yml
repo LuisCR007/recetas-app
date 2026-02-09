@@ -1,0 +1,43 @@
+version: '3.8'
+
+services:
+  # Servicio backend
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: recetas-backend
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - DATABASE_PATH=/app/database/recetas.db
+    volumes:
+      - ./backend:/app/backend
+      - ./database:/app/database
+    restart: unless-stopped
+    networks:
+      - recetas-network
+
+  # Servicio frontend (opcional - si usas un segundo contenedor)
+  frontend:
+    image: node:18-alpine
+    container_name: recetas-frontend
+    working_dir: /app
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./frontend:/app
+    command: npm start
+    depends_on:
+      - backend
+    networks:
+      - recetas-network
+    restart: unless-stopped
+
+networks:
+  recetas-network:
+    driver: bridge
+
+volumes:
+  database:

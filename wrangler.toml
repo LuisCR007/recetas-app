@@ -1,0 +1,18 @@
+name = "recetas-app"
+type = "javascript"
+
+# Variable de entorno
+[env.production]
+name = "recetas-app-prod"
+
+[build]
+command = "npm run build"
+cwd = "./backend"
+watch_paths = ["backend/**/*.js"]
+
+[site]
+bucket = "./dist"
+
+[triggers.crons]
+# Ejecutar limpieza de base de datos cada día a las 00:00 UTC (opcional)
+cron = "0 0 * * *"

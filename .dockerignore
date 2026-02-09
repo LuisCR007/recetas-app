@@ -1,0 +1,17 @@
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+dist
+build
+.astro
+.env
+.env.local
+.git
+.gitignore
+.vscode
+.idea
+.DS_Store
+README.md
+GUIA_INTEGRACION.md
+database/*.db

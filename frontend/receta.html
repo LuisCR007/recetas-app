@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Receta Detallada</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <!-- Header con título y botón retroceso -->
+    <header class="header-receta d-flex justify-content-between align-items-center">
+      <h1 id="receta-titulo" class="titulo-receta">Nombre del Plato</h1>
+      <button id="btn-volver" class="btn btn-secondary btn-lg">← Volver</button>
+    </header>
+
+    <!-- Contenedor principal -->
+    <main class="container-fluid mt-4 mb-5">
+      <!-- Imagen principal -->
+      <div class="row mb-5">
+        <div class="col-lg-6 offset-lg-3">
+          <img id="receta-imagen" src="" alt="Plato" class="img-fluid rounded-3 shadow">
+        </div>
+      </div>
+
+      <!-- Ingredientes e Instrucciones -->
+      <div class="row">
+        <!-- Ingredientes -->
+        <div class="col-lg-5">
+          <div class="card ingredientes-card">
+            <div class="card-header bg-primary text-white">
+              <h3 class="mb-0">🥘 Ingredientes</h3>
+            </div>
+            <div class="card-body">
+              <div id="ingredientes-container" class="ingredientes-container">
+                <!-- Se llena dinámicamente -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasos de la receta -->
+        <div class="col-lg-7">
+          <div class="card pasos-card">
+            <div class="card-header bg-success text-white">
+              <h3 class="mb-0">👨‍🍳 Preparación</h3>
+            </div>
+            <div class="card-body">
+              <div id="pasos-container" class="pasos-container">
+                <!-- Se llena dinámicamente -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/receta.js"></script>
+</body>
+</html>

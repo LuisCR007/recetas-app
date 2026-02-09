@@ -1,0 +1,42 @@
+# Dependencias de Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Base de datos
+backend/database/*.db
+backend/database/*.db-journal
+
+# Variables de entorno
+.env
+.env.local
+.env.*.local
+.env.production.local
+
+# Compilación y build
+dist/
+build/
+.astro/
+out/
+
+# Editor y IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output
+
+# Logs
+logs/
+*.log
+
+# Lock files (opcional - descomentar si trabajas en equipo)
+# package-lock.json
+# yarn.lock

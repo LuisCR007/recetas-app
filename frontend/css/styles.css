@@ -1,0 +1,360 @@
+/* Estilos Generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+/* Header Principal */
+.header-principal {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.titulo-main {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  opacity: 0.95;
+}
+
+/* Navbar de Cocinas */
+.navbar-cocinas {
+  background: white;
+  padding: 15px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+  border-bottom: 4px solid #667eea;
+}
+
+.cocinas-scroll {
+  overflow-x: auto;
+  padding: 0 20px;
+  -webkit-overflow-scrolling: smooth;
+}
+
+.cocinas-container {
+  display: flex;
+  gap: 12px;
+  min-width: min-content;
+}
+
+.btn-cocina {
+  padding: 10px 20px;
+  border: 2px solid #667eea;
+  background: white;
+  color: #667eea;
+  border-radius: 25px;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.95rem;
+}
+
+.btn-cocina:hover {
+  background: #f0f0ff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+}
+
+.btn-cocina.activo {
+  background: #667eea;
+  color: white;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+}
+
+/* Contenedor Principal */
+.contenedor-principal {
+  background: rgba(255, 255, 255, 0.95);
+  min-height: 70vh;
+  border-radius: 20px 20px 0 0;
+  padding: 40px 20px;
+  margin-top: 2rem;
+}
+
+/* Contenedor de Platos */
+.platos-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 25px;
+  padding: 20px;
+}
+
+.plato-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.plato-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+  border-color: #667eea;
+}
+
+.plato-imagen {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.plato-card:hover .plato-imagen {
+  transform: scale(1.05);
+}
+
+.plato-info {
+  padding: 15px;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-align: center;
+}
+
+.plato-nombre {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Header Receta */
+.header-receta {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 30px 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-receta {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#btn-volver {
+  font-size: 1.1rem;
+  padding: 10px 25px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+#btn-volver:hover {
+  transform: translateX(-5px);
+  background: white;
+  color: #667eea;
+}
+
+/* Cards de Ingredientes y Pasos */
+.ingredientes-card, .pasos-card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  height: 100%;
+}
+
+.card-header {
+  border-radius: 15px 15px 0 0 !important;
+  padding: 20px;
+}
+
+.card-header h3 {
+  font-size: 1.5rem;
+}
+
+.card-body {
+  padding: 25px;
+}
+
+/* Ingredientes */
+.ingredientes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.ingrediente-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.ingrediente-item:hover {
+  background: #e9ecef;
+  transform: translateX(5px);
+}
+
+.ingrediente-imagen {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.ingrediente-info {
+  flex-grow: 1;
+}
+
+.ingrediente-nombre {
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.ingrediente-cantidad {
+  font-size: 0.9rem;
+  color: #667eea;
+  margin: 3px 0 0 0;
+}
+
+/* Pasos de receta */
+.pasos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.paso-receta {
+  border-left: 4px solid #764ba2;
+  padding-left: 20px;
+  position: relative;
+  flex: 1;
+}
+
+.paso-numero {
+  position: absolute;
+  left: -15px;
+  top: 0;
+  background: #764ba2;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.paso-descripcion {
+  color: #333;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.paso-imagen {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .titulo-main {
+    font-size: 2rem;
+  }
+
+  .platos-container {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+  }
+
+  .header-receta {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .titulo-receta {
+    font-size: 1.8rem;
+  }
+
+  #btn-volver {
+    align-self: flex-start;
+  }
+
+  .row > div {
+    margin-bottom: 20px;
+  }
+}
+
+/* Scrollbar personalizada */
+::-webkit-scrollbar {
+  height: 8px;
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #667eea;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #764ba2;
+}
+
+/* Animaciones */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.plato-card {
+  animation: fadeIn 0.3s ease-out;
+}
+
+/* Textos útiles */
+.text-muted {
+  color: #999 !important;
+  font-size: 1.1rem;
+}

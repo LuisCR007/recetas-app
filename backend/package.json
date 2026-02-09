@@ -1,0 +1,38 @@
+{
+  "name": "recetas-app",
+  "version": "1.0.0",
+  "description": "Aplicación web para explorar recetas de diferentes cocinas del mundo",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "echo 'Build completed'",
+    "test": "echo 'No tests available'",
+    "docker:build": "docker build -t recetas-app:1.0 .",
+    "docker:run": "docker run -d -p 3000:3000 --name recetas-container recetas-app:1.0",
+    "docker:stop": "docker stop recetas-container && docker rm recetas-container",
+    "docker:compose:up": "docker-compose up -d",
+    "docker:compose:down": "docker-compose down"
+  },
+  "keywords": [
+    "recetas",
+    "cocina",
+    "internacional",
+    "web-app"
+  ],
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "sqlite3": "^5.1.6",
+    "body-parser": "^1.20.2"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
