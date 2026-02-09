@@ -1,0 +1,16 @@
+[
+  {"id": 1, "nombre": "Italiana", "descripcion": "Cocina italiana", "icono": "🇮🇹"},
+  {"id": 2, "nombre": "Francesa", "descripcion": "Cocina francesa", "icono": "🇫🇷"},
+  {"id": 3, "nombre": "Española", "descripcion": "Cocina española", "icono": "🇪🇸"},
+  {"id": 4, "nombre": "Mexicana", "descripcion": "Cocina mexicana", "icono": "🇲🇽"},
+  {"id": 5, "nombre": "Tailandesa", "descripcion": "Cocina tailandesa", "icono": "🇹🇭"},
+  {"id": 6, "nombre": "Japonesa", "descripcion": "Cocina japonesa", "icono": "🇯🇵"},
+  {"id": 7, "nombre": "China", "descripcion": "Cocina china", "icono": "🇨🇳"},
+  {"id": 8, "nombre": "India", "descripcion": "Cocina india", "icono": "🇮🇳"},
+  {"id": 9, "nombre": "Griega", "descripcion": "Cocina griega", "icono": "🇬🇷"},
+  {"id": 10, "nombre": "Turca", "descripcion": "Cocina turca", "icono": "🇹🇷"},
+  {"id": 11, "nombre": "Portuguesa", "descripcion": "Cocina portuguesa", "icono": "🇵🇹"},
+  {"id": 12, "nombre": "Alemana", "descripcion": "Cocina alemana", "icono": "🇩🇪"},
+  {"id": 13, "nombre": "Brasileña", "descripcion": "Cocina brasileña", "icono": "🇧🇷"},
+  {"id": 14, "nombre": "Peruana", "descripcion": "Cocina peruana", "icono": "🇵🇪"}
+]

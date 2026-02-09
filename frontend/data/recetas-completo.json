@@ -1,0 +1,612 @@
+{
+  "1": {
+    "nombre": "Pasta Carbonara",
+    "descripcion": "Pasta con salsa cremosa de huevo, panceta y queso parmesano",
+    "tiempo_preparacion": "20 minutos",
+    "dificultad": "Intermedia",
+    "ingredientes": [
+      {
+        "id": 1,
+        "nombre": "Spaghetti",
+        "cantidad": "400g",
+        "imagen": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=200&h=200&fit=crop",
+        "descripcion": "Pasta italiana de trigo"
+      },
+      {
+        "id": 2,
+        "nombre": "Huevos frescos",
+        "cantidad": "3 grandes",
+        "imagen": "https://images.unsplash.com/photo-1599599810533-59c8bef0f7b7?w=200&h=200&fit=crop",
+        "descripcion": "Huevos de granja"
+      },
+      {
+        "id": 3,
+        "nombre": "Panceta de calidad",
+        "cantidad": "200g",
+        "imagen": "https://images.unsplash.com/photo-1577099505137-6fbdf7c3fe01?w=200&h=200&fit=crop",
+        "descripcion": "Panceta italiana curada"
+      },
+      {
+        "id": 4,
+        "nombre": "Queso Parmesano",
+        "cantidad": "100g",
+        "imagen": "https://images.unsplash.com/photo-1452894906073-30c6450ec459?w=200&h=200&fit=crop",
+        "descripcion": "Parmesano rallado fresco"
+      },
+      {
+        "id": 5,
+        "nombre": "Sal marina",
+        "cantidad": "Al gusto",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Sal para sazonar"
+      },
+      {
+        "id": 6,
+        "nombre": "Pimienta negra",
+        "cantidad": "Al gusto",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Pimienta negra molida"
+      }
+    ],
+    "pasos": [
+      {
+        "numero": 1,
+        "titulo": "Preparar el agua",
+        "descripcion": "Llenar una olla grande con agua y añadir sal marina. Llevar a ebullición a fuego alto",
+        "imagen": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=300&h=300&fit=crop",
+        "tiempo": "5 min"
+      },
+      {
+        "numero": 2,
+        "titulo": "Cocinar la pasta",
+        "descripcion": "Cuando hierva el agua, agregar el spaghetti. Revolver ocasionalmente y cocinar 9-10 minutos hasta que esté al dente",
+        "imagen": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&h=300&fit=crop",
+        "tiempo": "10 min"
+      },
+      {
+        "numero": 3,
+        "titulo": "Preparar la panceta",
+        "descripcion": "Cortar la panceta en cubitos pequeños. Freír en una sartén grande a fuego medio hasta que esté crujiente",
+        "imagen": "https://images.unsplash.com/photo-1577099505137-6fbdf7c3fe01?w=300&h=300&fit=crop",
+        "tiempo": "8 min"
+      },
+      {
+        "numero": 4,
+        "titulo": "Mezcla de huevo y queso",
+        "descripcion": "En un bowl, batir los huevos con el queso parmesano rallado, sal y pimienta negra molida",
+        "imagen": "https://images.unsplash.com/photo-1599599810533-59c8bef0f7b7?w=300&h=300&fit=crop",
+        "tiempo": "3 min"
+      },
+      {
+        "numero": 5,
+        "titulo": "Combinar pasta y panceta",
+        "descripcion": "Escurrir la pasta reservando 1 taza de agua de cocción. Agregar la pasta a la sartén con panceta caliente",
+        "imagen": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&h=300&fit=crop",
+        "tiempo": "2 min"
+      },
+      {
+        "numero": 6,
+        "titulo": "Agregar la salsa",
+        "descripcion": "Retirar sartén del fuego. Verter la mezcla de huevo lentamente mientras revuelves constantemente. Agregar agua de cocción si es necesario",
+        "imagen": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=300&h=300&fit=crop",
+        "tiempo": "2 min"
+      },
+      {
+        "numero": 7,
+        "titulo": "Servir inmediatamente",
+        "descripcion": "La salsa debe ser cremosa. Servir en platos calientes de inmediato con más queso y pimienta",
+        "imagen": "https://images.unsplash.com/photo-1612874742237-6526221fcf4f?w=300&h=300&fit=crop",
+        "tiempo": "1 min"
+      }
+    ]
+  },
+  "43": {
+    "nombre": "Tacos al Pastor",
+    "descripcion": "Tacos tradicionales mexicanos con carne marinada y piña",
+    "tiempo_preparacion": "45 minutos",
+    "dificultad": "Media",
+    "ingredientes": [
+      {
+        "id": 1,
+        "nombre": "Cerdo magro",
+        "cantidad": "1 kg",
+        "imagen": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=200&h=200&fit=crop",
+        "descripcion": "Cerdo en filetes delgados"
+      },
+      {
+        "id": 2,
+        "nombre": "Piña fresca",
+        "cantidad": "1 unidad",
+        "imagen": "https://images.unsplash.com/photo-1590589917220-3f5e1c48ba3a?w=200&h=200&fit=crop",
+        "descripcion": "Piña madura y fresca"
+      },
+      {
+        "id": 3,
+        "nombre": "Tortillas de maíz",
+        "cantidad": "20 unidades",
+        "imagen": "https://images.unsplash.com/photo-1565957615233-9b9f68353d08?w=200&h=200&fit=crop",
+        "descripcion": "Tortillas de maíz recién hechas"
+      },
+      {
+        "id": 4,
+        "nombre": "Cebolla blanca",
+        "cantidad": "2 medianas",
+        "imagen": "https://images.unsplash.com/photo-1569718212e3-dae76e3e3843?w=200&h=200&fit=crop",
+        "descripcion": "Cebolla blanca fresca"
+      },
+      {
+        "id": 5,
+        "nombre": "Cilantro fresco",
+        "cantidad": "1 manojo",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Cilantro verde y aromático"
+      },
+      {
+        "id": 6,
+        "nombre": "Limones verdes",
+        "cantidad": "3 unidades",
+        "imagen": "https://images.unsplash.com/photo-1585701032534-67f2a8d0ef12?w=200&h=200&fit=crop",
+        "descripcion": "Limones frescos ácidos"
+      },
+      {
+        "id": 7,
+        "nombre": "Chile guajillo",
+        "cantidad": "4 unidades",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Chile guajillo seco"
+      },
+      {
+        "id": 8,
+        "nombre": "Achiote",
+        "cantidad": "2 cucharadas",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Pasta de achiote"
+      }
+    ],
+    "pasos": [
+      {
+        "numero": 1,
+        "titulo": "Preparar marinada",
+        "descripcion": "Hidratar los chiles guajillo, licuarlos con achiote, vinagre y especias para crear la marinada",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=300&h=300&fit=crop",
+        "tiempo": "10 min"
+      },
+      {
+        "numero": 2,
+        "titulo": "Marinar la carne",
+        "descripcion": "Colocar filetes de cerdo en la marinada. Dejar reposar mínimo 30 minutos en refrigerador",
+        "imagen": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300&h=300&fit=crop",
+        "tiempo": "30 min"
+      },
+      {
+        "numero": 3,
+        "titulo": "Picar la piña",
+        "descripcion": "Cortar la piña en trozos pequeños. Reservar 200g para acompañar",
+        "imagen": "https://images.unsplash.com/photo-1590589917220-3f5e1c48ba3a?w=300&h=300&fit=crop",
+        "tiempo": "5 min"
+      },
+      {
+        "numero": 4,
+        "titulo": "Cocinar la carne",
+        "descripcion": "Calentar comal o plancha. Cocinar la carne marinada a fuego alto hasta que esté dorada y crujiente",
+        "imagen": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300&h=300&fit=crop",
+        "tiempo": "15 min"
+      },
+      {
+        "numero": 5,
+        "titulo": "Calentar tortillas",
+        "descripcion": "Calentar las tortillas directamente en la flama o en comal. Mantenerlas envueltas en servilleta",
+        "imagen": "https://images.unsplash.com/photo-1565957615233-9b9f68353d08?w=300&h=300&fit=crop",
+        "tiempo": "3 min"
+      },
+      {
+        "numero": 6,
+        "titulo": "Picar cebolla",
+        "descripcion": "Cortar la cebolla en tiras finas. Picar cilantro fresco. Cortar limones en gajos",
+        "imagen": "https://images.unsplash.com/photo-1569718212e3-dae76e3e3843?w=300&h=300&fit=crop",
+        "tiempo": "5 min"
+      },
+      {
+        "numero": 7,
+        "titulo": "Armar los tacos",
+        "descripcion": "Colocar carne en tortilla caliente. Agregar piña, cebolla, cilantro. Expirmir limón",
+        "imagen": "https://images.unsplash.com/photo-1565871337648-670b0c3cb342?w=300&h=300&fit=crop",
+        "tiempo": "5 min"
+      }
+    ]
+  },
+  "57": {
+    "nombre": "Pad Thai",
+    "descripcion": "Fideos salteados tailandeses con camarones y cacahuates",
+    "tiempo_preparacion": "25 minutos",
+    "dificultad": "Media",
+    "ingredientes": [
+      {
+        "id": 1,
+        "nombre": "Fideos de arroz",
+        "cantidad": "300g",
+        "imagen": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=200&h=200&fit=crop",
+        "descripcion": "Fideos tailandeses de arroz"
+      },
+      {
+        "id": 2,
+        "nombre": "Camarones",
+        "cantidad": "250g",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Camarones frescos pelados"
+      },
+      {
+        "id": 3,
+        "nombre": "Huevos",
+        "cantidad": "2 unidades",
+        "imagen": "https://images.unsplash.com/photo-1599599810533-59c8bef0f7b7?w=200&h=200&fit=crop",
+        "descripcion": "Huevos de granja"
+      },
+      {
+        "id": 4,
+        "nombre": "Brotes de soja",
+        "cantidad": "1 taza",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Brotes frescos crocantes"
+      },
+      {
+        "id": 5,
+        "nombre": "Cacahuates tostados",
+        "cantidad": "100g",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Cacahuates molidos"
+      },
+      {
+        "id": 6,
+        "nombre": "Cebolleta",
+        "cantidad": "4 tallos",
+        "imagen": "https://images.unsplash.com/photo-1569718212e3-dae76e3e3843?w=200&h=200&fit=crop",
+        "descripcion": "Cebolleta verde"
+      },
+      {
+        "id": 7,
+        "nombre": "Salsa de tamarindo",
+        "cantidad": "3 cucharadas",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Salsa ácida tailandesa"
+      },
+      {
+        "id": 8,
+        "nombre": "Salsa de soja",
+        "cantidad": "2 cucharadas",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Salsa oscura tailandesa"
+      },
+      {
+        "id": 9,
+        "nombre": "Ajo",
+        "cantidad": "3 dientes",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Ajo fresco picado"
+      },
+      {
+        "id": 10,
+        "nombre": "Limón tailandés",
+        "cantidad": "2 unidades",
+        "imagen": "https://images.unsplash.com/photo-1585701032534-67f2a8d0ef12?w=200&h=200&fit=crop",
+        "descripcion": "Limón ácido tailandés"
+      }
+    ],
+    "pasos": [
+      {
+        "numero": 1,
+        "titulo": "Hidratar los fideos",
+        "descripcion": "Remojar los fideos de arroz en agua tibia 15 minutos hasta que estén blandos pero aún firmes",
+        "imagen": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=300&h=300&fit=crop",
+        "tiempo": "15 min"
+      },
+      {
+        "numero": 2,
+        "titulo": "Preparar ingredientes",
+        "descripcion": "Picar ajo, cortar cebolleta en trozos, tener listos camarones, huevos y brotes de soja",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=300&h=300&fit=crop",
+        "tiempo": "5 min"
+      },
+      {
+        "numero": 3,
+        "titulo": "Mezclar salsas",
+        "descripcion": "En un bowl pequeño, mezclar salsa de tamarindo, salsa de soja y jugo de limón",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=300&h=300&fit=crop",
+        "tiempo": "2 min"
+      },
+      {
+        "numero": 4,
+        "titulo": "Cocinar a fuego alto",
+        "descripcion": "Calentar aceite en wok. Freír ajo 30 segundos. Agregar camarones y cocinar 2 minutos",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=300&h=300&fit=crop",
+        "tiempo": "3 min"
+      },
+      {
+        "numero": 5,
+        "titulo": "Agregar huevos",
+        "descripcion": "Empujar camarones a un lado. Verter huevos batidos y mezclar hasta que estén cocidos",
+        "imagen": "https://images.unsplash.com/photo-1599599810533-59c8bef0f7b7?w=300&h=300&fit=crop",
+        "tiempo": "2 min"
+      },
+      {
+        "numero": 6,
+        "titulo": "Incorporar fideos",
+        "descripcion": "Agregar fideos escurridos. Verter salsa preparada. Mezclar constantemente 2-3 minutos",
+        "imagen": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=300&h=300&fit=crop",
+        "tiempo": "3 min"
+      },
+      {
+        "numero": 7,
+        "titulo": "Terminar y servir",
+        "descripcion": "Agregar brotes de soja y cebolleta. Esparcir cacahuates molidos encima. Servir inmediatamente",
+        "imagen": "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=300&h=300&fit=crop",
+        "tiempo": "2 min"
+      }
+    ]
+  },
+  "71": {
+    "nombre": "Sushi",
+    "descripcion": "Sushi variado con arroz de sushi, nori y rellenos frescos",
+    "tiempo_preparacion": "40 minutos",
+    "dificultad": "Alta",
+    "ingredientes": [
+      {
+        "id": 1,
+        "nombre": "Arroz de sushi",
+        "cantidad": "250g",
+        "imagen": "https://images.unsplash.com/photo-1599599810533-59c8bef0f7b7?w=200&h=200&fit=crop",
+        "descripcion": "Arroz de grano corto"
+      },
+      {
+        "id": 2,
+        "nombre": "Hojas de nori",
+        "cantidad": "6 hojas",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Alga marina seca"
+      },
+      {
+        "id": 3,
+        "nombre": "Salmón fresco",
+        "cantidad": "200g",
+        "imagen": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=200&h=200&fit=crop",
+        "descripcion": "Filete de salmón de calidad"
+      },
+      {
+        "id": 4,
+        "nombre": "Aguacate",
+        "cantidad": "2 unidades",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Aguacate maduro"
+      },
+      {
+        "id": 5,
+        "nombre": "Pepino",
+        "cantidad": "1 largo",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Pepino fresco"
+      },
+      {
+        "id": 6,
+        "nombre": "Vinagre de arroz",
+        "cantidad": "3 cucharadas",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Vinagre dulce"
+      },
+      {
+        "id": 7,
+        "nombre": "Azúcar",
+        "cantidad": "2 cucharadas",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Azúcar blanca"
+      },
+      {
+        "id": 8,
+        "nombre": "Sal",
+        "cantidad": "1 cucharadita",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Sal marina"
+      },
+      {
+        "id": 9,
+        "nombre": "Wasabi",
+        "cantidad": "2 cucharaditas",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Pasta de rábano picante"
+      },
+      {
+        "id": 10,
+        "nombre": "Jengibre encurtido",
+        "cantidad": "50g",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Jengibre rosado en vinagre"
+      }
+    ],
+    "pasos": [
+      {
+        "numero": 1,
+        "titulo": "Cocinar arroz",
+        "descripcion": "Cocer 250g arroz con 300ml agua. Una vez cocido, dejar enfriar",
+        "imagen": "https://images.unsplash.com/photo-1599599810533-59c8bef0f7b7?w=300&h=300&fit=crop",
+        "tiempo": "20 min"
+      },
+      {
+        "numero": 2,
+        "titulo": "Sazonar arroz",
+        "descripcion": "Mezclar arroz con vinagre, azúcar y sal. Separar con paleta de madera",
+        "imagen": "https://images.unsplash.com/photo-1599599810533-59c8bef0f7b7?w=300&h=300&fit=crop",
+        "tiempo": "5 min"
+      },
+      {
+        "numero": 3,
+        "titulo": "Preparar ingredientes",
+        "descripcion": "Cortar salmón en tiras, aguacate en rebanadas, pepino en palitos largos",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=300&h=300&fit=crop",
+        "tiempo": "10 min"
+      },
+      {
+        "numero": 4,
+        "titulo": "Formar maki sushi",
+        "descripcion": "Colocar nori en colchoneta. Extender 30g arroz. Agregar una tira de cada relleno",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=300&h=300&fit=crop",
+        "tiempo": "5 min"
+      },
+      {
+        "numero": 5,
+        "titulo": "Enrollar sushi",
+        "descripcion": "Enrollar apretado usando la colchoneta. Sellar con agua",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=300&h=300&fit=crop",
+        "tiempo": "3 min"
+      },
+      {
+        "numero": 6,
+        "titulo": "Cortar",
+        "descripcion": "Usar cuchillo mojado para cortar en 8 piezas. Limpiar entre cortes",
+        "imagen": "https://images.unsplash.com/photo-1579584425555-63967a0ac078?w=300&h=300&fit=crop",
+        "tiempo": "3 min"
+      },
+      {
+        "numero": 7,
+        "titulo": "Servir",
+        "descripcion": "Acompañar con salsa de soja, wasabi y jengibre encurtido",
+        "imagen": "https://images.unsplash.com/photo-1579584425555-63967a0ac078?w=300&h=300&fit=crop",
+        "tiempo": "2 min"
+      }
+    ]
+  },
+  "99": {
+    "nombre": "Butter Chicken",
+    "descripcion": "Pollo tierno en salsa cremosa de ghee, tomate y especias",
+    "tiempo_preparacion": "50 minutos",
+    "dificultad": "Media",
+    "ingredientes": [
+      {
+        "id": 1,
+        "nombre": "Pechuga de pollo",
+        "cantidad": "800g",
+        "imagen": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=200&h=200&fit=crop",
+        "descripcion": "Pollo magro fresco"
+      },
+      {
+        "id": 2,
+        "nombre": "Yogur natural",
+        "cantidad": "1 taza",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Yogur sin azúcar"
+      },
+      {
+        "id": 3,
+        "nombre": "Ghee (mantequilla clarificada)",
+        "cantidad": "100g",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Ghee puro indio"
+      },
+      {
+        "id": 4,
+        "nombre": "Crema de leche",
+        "cantidad": "200ml",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Crema espesa"
+      },
+      {
+        "id": 5,
+        "nombre": "Tomates",
+        "cantidad": "600g",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Tomates frescos o enlatados"
+      },
+      {
+        "id": 6,
+        "nombre": "Cebolla",
+        "cantidad": "2 medianas",
+        "imagen": "https://images.unsplash.com/photo-1569718212e3-dae76e3e3843?w=200&h=200&fit=crop",
+        "descripcion": "Cebolla blanca"
+      },
+      {
+        "id": 7,
+        "nombre": "Ajo",
+        "cantidad": "5 dientes",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Ajo fresco"
+      },
+      {
+        "id": 8,
+        "nombre": "Jengibre",
+        "cantidad": "2 cucharadas",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Jengibre rallado"
+      },
+      {
+        "id": 9,
+        "nombre": "Garam Masala",
+        "cantidad": "2 cucharaditas",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Mezcla de especias india"
+      },
+      {
+        "id": 10,
+        "nombre": "Cilantro fresco",
+        "cantidad": "1 manojo",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=200&h=200&fit=crop",
+        "descripcion": "Cilantro verde"
+      }
+    ],
+    "pasos": [
+      {
+        "numero": 1,
+        "titulo": "Marinar el pollo",
+        "descripcion": "Cortar pollo en cubos. Mezclar con yogur, ajo, jengibre y especias. Marinar 30 minutos",
+        "imagen": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300&h=300&fit=crop",
+        "tiempo": "30 min"
+      },
+      {
+        "numero": 2,
+        "titulo": "Cocinar el pollo",
+        "descripcion": "Calentar ghee. Cocinar pollo marinado en tandoor o sartén hasta dorado",
+        "imagen": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300&h=300&fit=crop",
+        "tiempo": "15 min"
+      },
+      {
+        "numero": 3,
+        "titulo": "Preparar la salsa base",
+        "descripcion": "Picar finamente cebolla. Cocinar en ghee hasta que sea translúcida",
+        "imagen": "https://images.unsplash.com/photo-1569718212e3-dae76e3e3843?w=300&h=300&fit=crop",
+        "tiempo": "5 min"
+      },
+      {
+        "numero": 4,
+        "titulo": "Agregar aromáticos",
+        "descripcion": "Añadir ajo y jengibre picados. Cocinar 2 minutos hasta aromatizar",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=300&h=300&fit=crop",
+        "tiempo": "2 min"
+      },
+      {
+        "numero": 5,
+        "titulo": "Cocinar tomates",
+        "descripcion": "Agregar tomates sin semillas. Cocinar 10 minutos hasta reducir",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=300&h=300&fit=crop",
+        "tiempo": "10 min"
+      },
+      {
+        "numero": 6,
+        "titulo": "Hacer puré de tomate",
+        "descripcion": "Licuar la mezcla de tomate hasta obtener salsa suave",
+        "imagen": "https://images.unsplash.com/photo-1599599810694-2202a9e79c89?w=300&h=300&fit=crop",
+        "tiempo": "3 min"
+      },
+      {
+        "numero": 7,
+        "titulo": "Incorporar pollo y crema",
+        "descripcion": "Agregar pollo cocido. Verter crema lentamente. Cocinar 5 minutos",
+        "imagen": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300&h=300&fit=crop",
+        "tiempo": "5 min"
+      },
+      {
+        "numero": 8,
+        "titulo": "Sazonar y servir",
+        "descripcion": "Agregar Garam Masala. Decorar con cilantro fresco. Servir con naan",
+        "imagen": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=300&h=300&fit=crop",
+        "tiempo": "2 min"
+      }
+    ]
+  }
+}
