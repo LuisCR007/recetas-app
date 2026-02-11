@@ -194,7 +194,7 @@
   "13": [
     {"id": 169, "nombre": "Feijoada", "cocina_id": 13, "imagen": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?w=500&h=500&fit=crop", "descripcion": "Estofado de frijoles negros"},
     {"id": 170, "nombre": "Pão de Queijo", "cocina_id": 13, "imagen": "https://images.unsplash.com/photo-1585238341710-4b4d60cfb298?w=500&h=500&fit=crop", "descripcion": "Pan de queso brasileño"},
-    {"id": 171, "nombre": "Ceviche", "cocina_id": 13, "imagen": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&h=500&fit=crop", "descripcion": "Ceviche"}},
+    {"id": 171, "nombre": "Ceviche", "cocina_id": 13, "imagen": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&h=500&fit=crop", "descripcion": "Ceviche"},
     {"id": 172, "nombre": "Moqueca", "cocina_id": 13, "imagen": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500&h=500&fit=crop", "descripcion": "Guiso de pescado brasileño"},
     {"id": 173, "nombre": "Brigadeiros", "cocina_id": 13, "imagen": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500&h=500&fit=crop", "descripcion": "Dulce de chocolate"},
     {"id": 174, "nombre": "Açaí Bowl", "cocina_id": 13, "imagen": "https://images.unsplash.com/photo-1590080876900-b9f36dde6f2e?w=500&h=500&fit=crop", "descripcion": "Bowl de açaí con frutas"},

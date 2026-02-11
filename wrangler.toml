@@ -1,18 +1,16 @@
 name = "recetas-app"
 type = "javascript"
 
-# Variable de entorno
+# Cloudflare Pages configuration
 [env.production]
 name = "recetas-app-prod"
 
 [build]
-command = "npm run build"
-cwd = "./backend"
-watch_paths = ["backend/**/*.js"]
+command = ""
+cwd = "./frontend"
 
 [site]
-bucket = "./dist"
+bucket = "./frontend"
 
-[triggers.crons]
-# Ejecutar limpieza de base de datos cada día a las 00:00 UTC (opcional)
-cron = "0 0 * * *"
+# API endpoint for development (local Node.js backend)
+# For production: use Cloudflare Workers if backend needed

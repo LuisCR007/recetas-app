@@ -1,8 +1,8 @@
 // Variables globales
-const API_URL = 'http://localhost:3000/api';
 let platoId = null;
 let cocinaId = null;
 let ultimaCocina = localStorage.getItem('ultimaCocina');
+let recetasData = {};
 
 // Elementos del DOM
 const recetaTitulo = document.getElementById('receta-titulo');
@@ -25,10 +25,19 @@ function obtenerParametros() {
 // Cargar detalles de la receta
 async function cargarReceta() {
   try {
-    const response = await fetch(`${API_URL}/platos/${platoId}/detalle`);
-    const data = await response.json();
+    // Cargar datos de recetas
+    const response = await fetch('data/recetas.json');
+    recetasData = await response.json();
 
-    mostrarReceta(data);
+    // Obtener receta específica
+    const receta = recetasData[platoId];
+    
+    if (!receta) {
+      recetaTitulo.textContent = 'Receta no encontrada';
+      return;
+    }
+
+    mostrarReceta(receta);
   } catch (error) {
     console.error('Error al cargar receta:', error);
     recetaTitulo.textContent = 'Error al cargar la receta';
@@ -36,19 +45,30 @@ async function cargarReceta() {
 }
 
 // Mostrar receta en la página
-function mostrarReceta(data) {
-  const { plato, ingredientes, pasos } = data;
-
-  // Título e imagen
-  recetaTitulo.textContent = plato.nombre;
-  recetaImagen.src = plato.imagen;
-  recetaImagen.onerror = () => recetaImagen.src = 'https://via.placeholder.com/500x400?text=Sin+imagen';
+function mostrarReceta(receta) {
+  // Título e imagen - cargar desde platos.json
+  recetaTitulo.textContent = receta.nombre;
+  
+  // Obtener imagen del plato desde platos.json
+  fetch('data/platos.json')
+    .then(res => res.json())
+    .then(platos => {
+      // Buscar el plato para obtener la imagen
+      for (let cocina in platos) {
+        const plato = platos[cocina].find(p => p.id == platoId);
+        if (plato) {
+          recetaImagen.src = plato.imagen;
+          break;
+        }
+      }
+      recetaImagen.onerror = () => recetaImagen.src = 'https://via.placeholder.com/500x400?text=Sin+imagen';
+    });
 
   // Mostrar ingredientes
-  mostrarIngredientes(ingredientes);
+  mostrarIngredientes(receta.ingredientes);
 
   // Mostrar pasos
-  mostrarPasos(pasos);
+  mostrarPasos(receta.pasos);
 }
 
 // Mostrar ingredientes

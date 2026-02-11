@@ -1,6 +1,6 @@
 // Variables globales
-const API_URL = 'http://localhost:3000/api';
 let cocinas = [];
+let platosData = {};
 let cocinaActual = null;
 let ultimaCocina = localStorage.getItem('ultimaCocina');
 
@@ -12,8 +12,12 @@ const platosContainer = document.getElementById('platos-container');
 async function inicializar() {
   try {
     // Cargar cocinas
-    const response = await fetch(`${API_URL}/cocinas`);
+    const response = await fetch('data/cocinas.json');
     cocinas = await response.json();
+
+    // Cargar platos
+    const platosResponse = await fetch('data/platos.json');
+    platosData = await platosResponse.json();
 
     // Mostrar botones de cocinas
     mostrarCocinas();
@@ -26,8 +30,8 @@ async function inicializar() {
       }
     }
   } catch (error) {
-    console.error('Error al cargar cocinas:', error);
-    platosContainer.innerHTML = '<p class="text-danger">Error al cargar las cocinas</p>';
+    console.error('Error al cargar datos:', error);
+    platosContainer.innerHTML = '<p class="text-danger">Error al cargar los datos</p>';
   }
 }
 
@@ -67,11 +71,9 @@ async function seleccionarCocina(cocina) {
     }
   });
 
-  // Cargar platos
+  // Cargar platos de la cocina seleccionada
   try {
-    const response = await fetch(`${API_URL}/platos/${cocina.id}`);
-    const platos = await response.json();
-
+    const platos = platosData[cocina.id] || [];
     mostrarPlatos(platos);
   } catch (error) {
     console.error('Error al cargar platos:', error);
