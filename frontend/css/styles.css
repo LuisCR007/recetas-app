@@ -125,6 +125,19 @@ html, body {
   height: 280px;
   object-fit: cover;
   transition: transform 0.3s ease;
+  background: linear-gradient(135deg, #e0e7ff 0%, #f3e8ff 100%);
+  display: block;
+}
+
+.plato-imagen[src=""],
+.plato-imagen:not([src]) {
+  content: "Imagen no disponible";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+  font-size: 14px;
+  background: repeating-linear-gradient(45deg, #f0f0f0, #f0f0f0 10px, #e8e8e8 10px, #e8e8e8 20px);
 }
 
 .plato-card:hover .plato-imagen {
